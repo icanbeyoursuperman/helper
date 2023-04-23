@@ -1,0 +1,354 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset1 Calibri;}{\f1\fnil\fcharset0 Calibri;}{\f2\fnil Calibri;}}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs22\lang1079\u4307?\u4304?\u4309?\u4304?\u4314?\u4308?\u4305?\u4304? 1\par
+\par
+\u4328?\u4308?\u4304?\u4307?\u4306?\u4312?\u4316?\u4308?\u4311? \u4318?\u4320?\u4317?\u4306?\u4320?\u4304?\u4315?\u4304? \f1\lang1033 c++, \f0\lang1079\u4328?\u4308?\u4304?\u4307?\u4306?\u4312?\u4316?\u4308?\u4311? \u4318?\u4320?\u4317?\u4306?\u4320?\u4304?\u4315?\u4304? \f1\lang1033 c++ \f2\lang1079 .\f1\lang1033 do/while \f0\lang1079\u4330?\u4312?\u4313?\u4314?\u4312?\u4321? \u4317?\u4318?\u4308?\u4320?\u4304?\u4322?\u4317?\u4320?\u4312?\u4321? \u4306?\u4304?\u4315?\u4317?\u4327?\u4308?\u4316?\u4308?\u4305?\u4312?\u4311? \u4328?\u4308?\u4304?\u4307?\u4306?\u4312?\u4316?\u4308?\u4311? \u4318?\u4320?\u4317?\u4306?\u4320?\u4304?\u4315?\u4304?, \u4320?\u4317?\u4315?\u4308?\u4314?\u4312?\u4330? \u4306?\u4304?\u4315?\u4317?\u4311?\u4309?\u4314?\u4312?\u4321? \f1\lang1033 y=x^2+ 5\f2\lang1079  \f0\u4324?\u4323?\u4316?\u4325?\u4330?\u4312?\u4312?\u4321? \u4315?\u4316?\u4312?\u4328?\u4309?\u4316?\u4308?\u4314?\u4317?\u4305?\u4308?\u4305?\u4321? \u4307?\u4304? \u4332?\u4304?\u4320?\u4315?\u4317?\u4304?\u4306?\u4308?\u4316?\u4321? \u4324?\u4323?\u4316?\u4325?\u4330?\u4312?\u4312?\u4321?\u4304? \u4307?\u4304? \u4304?\u4320?\u4306?\u4323?\u4315?\u4308?\u4316?\u4322?\u4312?\u4321? \u4315?\u4316?\u4312?\u4328?\u4309?\u4316?\u4308?\u4314?\u4317?\u4305?\u4304?\u4311?\u4304? \u4330?\u4334?\u4320?\u4312?\u4314?\u4321? \u4321?\u4304?\u4307?\u4304?\u4330? \f1\lang1033 x \f0\lang1079\u4304?\u4320?\u4324?\u4323?\u4315?\u4308?\u4316?\u4322?\u4312? [-5;5] \u4312?\u4316?\u4322?\u4308?\u4320?\u4309?\u4304?\u4314?\u4328?\u4312? \u4312?\u4330?\u4309?\u4314?\u4308?\u4305?\u4304? \f1\lang1033 h =1\f2\lang1079 .\f1\lang1033 5 \f0\lang1079\u4305?\u4312?\u4335?\u4312?\u4311?\par
+\par
+#include <iostream>\par
+#include <iomanip>\par
+#include <cmath>\par
+\par
+using namespace std;\par
+\par
+int main() \{\par
+    double x = -5.0;\par
+    double h = 1.5;\par
+    double y;\par
+\par
+    cout << setw(10) << "x" << setw(10) << "y" << endl;\par
+    do \{\par
+        y = pow(x, 2.0) + 5.0;\par
+        cout << setw(10) << x << setw(10) << y << endl;\par
+        x += h;\par
+    \} while (x <= 5.0);\par
+\par
+    return 0;\par
+\}\par
+\par
+\u4307?\u4304?\u4309?\u4304?\u4314?\u4308?\u4305?\u4304? 2 \par
+\u4328?\u4308?\u4304?\u4307?\u4306?\u4312?\u4316?\u4308?\u4311? \u4318?\u4320?\u4317?\u4306?\u4320?\u4304?\u4315?\u4304? \f1\lang1033 c++, \f0\lang1079\u4315?\u4317?\u4330?\u4308?\u4315?\u4323?\u4314?\u4311?\u4304? \u4313?\u4309?\u4304?\u4307?\u4320?\u4304?\u4322?\u4323?\u4314?\u4312? \u4315?\u4304?\u4322?\u4320?\u4312?\u4330?\u4304? N\f1\lang1033 [\f2\lang1079 4\f1\lang1033 x\f2\lang1079 4\f1\lang1033 ]\par
+\f0\lang1079\u4328?\u4308?\u4304?\u4307?\u4306?\u4312?\u4316?\u4308?\u4311? \u4318?\u4320?\u4317?\u4306?\u4320?\u4304?\u4315?\u4304?, \u4320?\u4317?\u4315?\u4308?\u4314?\u4312?\u4330? \u4306?\u4304?\u4315?\u4317?\u4311?\u4309?\u4314?\u4312?\u4321? \u4315?\u4304?\u4322?\u4320?\u4312?\u4330?\u4312?\u4321? \u4308?\u4314?\u4308?\u4315?\u4308?\u4316?\u4322?\u4308?\u4305?\u4312?\u4321? \u4335?\u4304?\u4315?\u4308?\u4305?\u4321? \u4321?\u4309?\u4308?\u4322?\u4308?\u4305?\u4312?\u4321? \u4315?\u4312?\u4334?\u4308?\u4307?\u4309?\u4312?\u4311? \u4307?\u4304? \u4307?\u4304?\u4305?\u4308?\u4333?\u4307?\u4304?\u4309?\u4321? \u4312?\u4315? \u4321?\u4309?\u4308?\u4322?\u4312?\u4321? \u4308?\u4314?\u4308?\u4315?\u4308?\u4316?\u4322?\u4308?\u4305?\u4321?, \u4320?\u4312?\u4316?\u4308?\u4313?\u4311?\u4304? \u4335?\u4304?\u4315?\u4312?\u4330? \u4315?\u4312?\u4316?\u4312?\u4315?\u4304?\u4314?\u4323?\u4320?\u4312?\u4304?.\par
+#include <iostream>\par
+\par
+using namespace std;\par
+\par
+const int N = 4;\par
+\par
+int main() \{\par
+    int matrix[N][N] = \{\{1, 2, 3, 4\},\par
+                        \{5, 6, 7, 8\},\par
+                        \{9, 10, 11, 12\},\par
+                        \{13, 14, 15, 16\}\};\par
+    int col_sum[N] = \{0\};\par
+    int row_sum[N] = \{0\};\par
+\par
+    // Calculate the sum of the elements by column and row\par
+    for (int i = 0; i < N; i++) \{\par
+        for (int j = 0; j < N; j++) \{\par
+            col_sum[j] += matrix[i][j];\par
+            row_sum[i] += matrix[i][j];\par
+        \}\par
+    \}\par
+\par
+    // Find the column with the highest sum and print its elements and sum\par
+    int max_col_sum_index = 0;\par
+    for (int j = 1; j < N; j++) \{\par
+        if (col_sum[j] > col_sum[max_col_sum_index]) \{\par
+            max_col_sum_index = j;\par
+        \}\par
+    \}\par
+    cout << "Column " << max_col_sum_index + 1 << ":\\n";\par
+    for (int i = 0; i < N; i++) \{\par
+        cout << matrix[i][max_col_sum_index] << endl;\par
+    \}\par
+    cout << "Sum: " << col_sum[max_col_sum_index] << endl;\par
+\par
+    // Find the row with the smallest sum and print its elements\par
+    int min_row_sum_index = 0;\par
+    for (int i = 1; i < N; i++) \{\par
+        if (row_sum[i] < row_sum[min_row_sum_index]) \{\par
+            min_row_sum_index = i;\par
+        \}\par
+    \}\par
+    cout << "Row with smallest sum:\\n";\par
+    for (int j = 0; j < N; j++) \{\par
+        cout << matrix[min_row_sum_index][j] << "\\t";\par
+    \}\par
+    cout << endl;\par
+\par
+    return 0;\par
+\}\par
+\par
+\par
+\par
+\par
+\par
+\u4307?\u4304?\u4309?\u4304?\u4314?\u4308?\u4305?\u4304? 1 \par
+\u4328?\u4308?\u4304?\u4307?\u4306?\u4312?\u4316?\u4308? \u4318?\u4320?\u4317?\u4306?\u4320?\u4304?\u4315?\u4304? \f1\lang1033 c++\f2\lang1079 , \f0\u4320?\u4317?\u4315?\u4308?\u4314?\u4312?\u4330? \u4306?\u4304?\u4315?\u4317?\u4312?\u4311?\u4309?\u4314?\u4312?\u4321? \f1\lang1033 y = x^4-2x^2+7 \f0\lang1079\u4324?\u4323?\u4316?\u4325?\u4330?\u4312?\u4321?\u4321? \u4315?\u4316?\u4312?\u4328?\u4309?\u4316?\u4308?\u4314?\u4317?\u4305?\u4308?\u4305?\u4321? \u4307?\u4304? \u4332?\u4304?\u4320?\u4315?\u4317?\u4304?\u4307?\u4306?\u4308?\u4316?\u4321? \u4324?\u4323?\u4316?\u4325?\u4330?\u4312?\u4312?\u4321?\u4304? \u4307?\u4304? \u4304?\u4320?\u4306?\u4323?\u4315?\u4308?\u4316?\u4322?\u4308?\u4305?\u4312?\u4321? \u4315?\u4316?\u4312?\u4328?\u4309?\u4316?\u4308?\u4314?\u4317?\u4305?\u4304?\u4311?\u4304? \u4330?\u4334?\u4320?\u4312?\u4314?\u4321?, \u4321?\u4304?\u4307?\u4304?\u4330? \f1\lang1033 x \f0\lang1079\u4304?\u4320?\u4306?\u4323?\u4315?\u4308?\u4316?\u4322?\u4308?\u4305?\u4312? [-4,8] \u4312?\u4316?\u4322?\u4308?\u4320?\u4309?\u4304?\u4314?\u4328?\u4312? \u4312?\u4330?\u4309?\u4314?\u4308?\u4305?\u4304? \f1\lang1033 h =1.5 \f0\lang1079\u4305?\u4312?\u4335?\u4312?\u4311? \u4304?\u4315?\u4304?\u4321?\u4311?\u4304?\u4316? \u4306?\u4304?\u4315?\u4317?\u4311?\u4309?\u4304?\u4314?\u4308?\u4311? \u4324?\u4323?\u4316?\u4325?\u4330?\u4312?\u4312?\u4321? \u4323?\u4304?\u4320?\u4327?\u4317?\u4324?\u4312?\u4311?\u4312? \u4315?\u4316?\u4312?\u4328?\u4309?\u4316?\u4308?\u4314?\u4317?\u4305?\u4312?\u4321? \u4316?\u4304?\u4315?\u4320?\u4304?\u4309?\u4314?\u4312?.\par
+\par
+#include <iostream>\par
+#include <iomanip>\par
+#include <cmath>\par
+\par
+using namespace std;\par
+\par
+int main() \{\par
+    double x, y, product_of_negatives = 1.0;\par
+    double h = 1.5;\par
+    int num_rows = 0;\par
+    \par
+    // Print header of the table\par
+    cout << setw(10) << "x" << setw(15) << "y" << endl;\par
+\par
+    // Loop over the range of x values and calculate the function values\par
+    for (x = -4.0; x <= 8.0; x += h) \{\par
+        y = pow(x, 4.0) - 2.0 * pow(x, 2.0) + 7.0;\par
+        cout << setw(10) << x << setw(15) << y << endl;\par
+        \par
+        // Check if the value of the function is negative and update the product\par
+        if (y < 0) \{\par
+            product_of_negatives *= y;\par
+        \}\par
+        \par
+        num_rows++;\par
+    \}\par
+    \par
+    // Print the product of the negative values of the function\par
+    if (product_of_negatives != 1.0) \{\par
+        cout << "The product of the negative values of the function is: " << product_of_negatives << endl;\par
+    \} else \{\par
+        cout << "There are no negative values of the function." << endl;\par
+    \}\par
+    \par
+    // Print the number of rows in the table\par
+    cout << "Number of rows in the table: " << num_rows << endl;\par
+    \par
+    return 0;\par
+\}\par
+\par
+\u4307?\u4304?\u4309?\u4304?\u4314?\u4308?\u4305?\u4304? 2 \par
+\u4328?\u4308?\u4304?\u4307?\u4306?\u4312?\u4316?\u4308?\u4311? \u4318?\u4320?\u4317?\u4306?\u4320?\u4304?\u4315?\u4304? \f1\lang1033 c++, \f0\lang1079\u4315?\u4317?\u4330?\u4308?\u4315?\u4323?\u4314?\u4311?\u4304? \u4313?\u4309?\u4304?\u4307?\u4320?\u4304?\u4322?\u4323?\u4314?\u4312? \u4315?\u4304?\u4322?\u4320?\u4312?\u4330?\u4304? \f1\lang1033 B[5x5]\par
+\f0\lang1079\u4328?\u4308?\u4304?\u4307?\u4306?\u4312?\u4316?\u4308?\u4311? \u4318?\u4320?\u4317?\u4306?\u4320?\u4304?\u4315?\u4304?, \u4320?\u4317?\u4315?\u4308?\u4314?\u4312?\u4330? \u4330?\u4304?\u4314?-\u4330?\u4304?\u4314?\u4313?\u4308? \u4306?\u4304?\u4315?\u4317?\u4322?\u4309?\u4314?\u4312?\u4321? \u4315?\u4304?\u4322?\u4320?\u4312?\u4330?\u4312?\u4321? \u4304?\u4320?\u4304?\u4315?\u4311?\u4304?\u4309?\u4304?\u4320?\u4312? \u4307?\u4312?\u4304?\u4306?\u4317?\u4316?\u4304?\u4314?\u4312?\u4321? \u4310?\u4308?\u4315?\u4317?\u4311? \u4307?\u4304? \u4325?\u4309?\u4308?\u4315?\u4317?\u4322? \u4306?\u4304?\u4316?\u4314?\u4304?\u4306?\u4308?\u4305?\u4323?\u4314?\u4312? \u4308?\u4314?\u4308?\u4315?\u4308?\u4316?\u4322?\u4308?\u4305?\u4312?\u4321? \u4316?\u4304?\u4315?\u4320?\u4304?\u4309?\u4314?\u4308?\u4305?\u4321?, \u4315?\u4312?\u4326?\u4308?\u4305?\u4323?\u4314? \u4328?\u4308?\u4307?\u4308?\u4306?\u4308?\u4305?\u4321? \u4308?\u4320?\u4311?\u4315?\u4304?\u4316?\u4308?\u4311?\u4321? \u4328?\u4308?\u4304?\u4307?\u4304?\u4320?\u4308?\u4305?\u4321? \u4307?\u4304? \u4307?\u4304?\u4305?\u4308?\u4333?\u4307?\u4304?\u4309?\u4321? \u4315?\u4304?\u4322?\u4320?\u4312?\u4330?\u4304?\u4321? \u4307?\u4304? \u4327?\u4309?\u4308?\u4314?\u4304? \u4308?\u4322?\u4304?\u4318?\u4312?\u4321? \u4328?\u4308?\u4307?\u4308?\u4306?\u4321?.\par
+\par
+#include <iostream>\par
+\par
+using namespace std;\par
+\par
+const int N = 5;\par
+\par
+int main() \{\par
+    int B[N][N] = \{\{1, 2, 3, 4, 5\},\par
+                   \{6, 7, 8, 9, 10\},\par
+                   \{11, 12, 13, 14, 15\},\par
+                   \{16, 17, 18, 19, 20\},\par
+                   \{21, 22, 23, 24, 25\}\};\par
+    int product_above_diagonal = 1;\par
+    int product_below_diagonal = 1;\par
+\par
+    // Print the matrix and calculate the products\par
+    cout << "Matrix B:\\n";\par
+    for (int i = 0; i < N; i++) \{\par
+        for (int j = 0; j < N; j++) \{\par
+            cout << B[i][j] << "\\t";\par
+            if (i < j) \{\par
+                product_above_diagonal *= B[i][j];\par
+            \} else if (i > j) \{\par
+                product_below_diagonal *= B[i][j];\par
+            \}\par
+        \}\par
+        cout << endl;\par
+    \}\par
+\par
+    // Print the products of the elements above and below the diagonal\par
+    cout << "Product of elements above the diagonal: " << product_above_diagonal << endl;\par
+    cout << "Product of elements below the diagonal: " << product_below_diagonal << endl;\par
+\par
+    // Compare the products and print the result\par
+    if (product_above_diagonal > product_below_diagonal) \{\par
+        cout << "The product of elements above the diagonal is greater." << endl;\par
+    \} else if (product_above_diagonal < product_below_diagonal) \{\par
+        cout << "The product of elements below the diagonal is greater." << endl;\par
+    \} else \{\par
+        cout << "The products of elements above and below the diagonal are equal." << endl;\par
+    \}\par
+\par
+    return 0;\par
+\}\par
+\par
+\u4326?\u4312?\u4304? \u4313?\u4312?\u4311?\u4334?\u4309?\u4304? 2 \f1\lang1033  ??\f2\lang1079\par
+\f0\u4320?\u4304? \u4307?\u4304?\u4312?\u4305?\u4308?\u4332?\u4307?\u4308?\u4305?\u4304? \u4308?\u4313?\u4320?\u4304?\u4316?\u4310?\u4308? \u4318?\u4320?\u4317?\u4306?\u4320?\u4304?\u4315?\u4312?\u4321? \u4328?\u4308?\u4321?\u4323?\u4314?\u4308?\u4312?\u4321? \u4315?\u4308?\u4320?\u4308?\par
+\par
+\f1\lang1033 int main()[\par
+int x=1;\par
+y=2;\par
+x\par
+if(x==1)\par
+if(y==2)\par
+\f2\lang1079\par
+\f0\u4326?\u4312?\u4304? \u4313?\u4312?\u4311?\u4334?\u4309?\u4304? 2 \f1\lang1033  ??\f2\lang1079\par
+\f0\u4320?\u4304? \u4307?\u4304?\u4312?\u4305?\u4308?\u4332?\u4307?\u4308?\u4305?\u4304? \u4308?\u4313?\u4320?\u4304?\u4316?\u4310?\u4308? \u4318?\u4320?\u4317?\u4306?\u4320?\u4304?\u4315?\u4312?\u4321? \u4328?\u4308?\u4321?\u4323?\u4314?\u4308?\u4312?\u4321? \u4315?\u4308?\u4320?\u4308?\par
+\f1\lang1033 int main()\par
+int k ;\par
+int a[] =[-2,2,7,-4,-7,1,2];\par
+k = 52%7;\par
+switch(a[k])\par
+(\par
+case -2;cout<<1<<endl;break;\par
+case 2;cout<<2<<endl;break;\f2\lang1079\par
+\f1\lang1033 case 7;cout<<3<<endl;break;\f2\lang1079\par
+\f1\lang1033 case -4;cout<<4<<endl;break;\f2\lang1079\par
+\f1\lang1033 case -7;cout<<5<<endl;break;\f2\lang1079\par
+\f1\lang1033 case 1;cout<<6<<endl;break;\par
+case 3; cout<<7<<endl;break;\par
+default: cout<<8<<endl;\par
+;\par
+\par
+swori\par
+#include <iostream>\par
+\par
+using namespace std;\par
+\par
+int main() \{\par
+    int k;\par
+    int a[] = \{-2, 2, 7, -4, -7, 1, 2\};\par
+    k = 52 % 7;\par
+    switch (a[k]) \{\par
+        case -2:\par
+            cout << 1 << endl;\par
+            break;\par
+        case 2:\par
+            cout << 2 << endl;\par
+            break;\par
+        case 7:\par
+            cout << 3 << endl;\par
+            break;\par
+        case -4:\par
+            cout << 4 << endl;\par
+            break;\par
+        case -7:\par
+            cout << 5 << endl;\par
+            break;\par
+        case 1:\par
+            cout << 6 << endl;\par
+            break;\par
+        case 3:\par
+            cout << 7 << endl;\par
+            break;\par
+        default:\par
+            cout << 8 << endl;\par
+            break;\par
+    \}\par
+    return 0;\par
+\}\par
+answer :4\f2\lang1079\par
+\f0\par
+\u4307?\u4304?\u4309?\u4304?\u4314?\u4308?\u4305?\u4304? 1\par
+\u4328?\u4308?\u4304?\u4307?\u4306?\u4312?\u4316?\u4308?\u4311? \f1\lang1033 y =cosx/x \f0\lang1079\u4324?\u4323?\u4316?\u4325?\u4330?\u4312?\u4312?\u4321? \u4315?\u4316?\u4312?\u4328?\u4309?\u4314?\u4308?\u4305?\u4317?\u4305?\u4304?\u4311?\u4304? \u4330?\u4334?\u4320?\u4312?\u4314?\u4312?\u4321? \u4306?\u4304?\u4315?\u4317?\u4311?\u4309?\u4314?\u4312?\u4321? \u4318?\u4320?\u4317?\u4306?\u4320?\u4304?\u4315?\u4304? \u4321?\u4304?\u4307?\u4304?\u4330? \f1\lang1033 X \f0\lang1079\u4304?\u4320?\u4306?\u4323?\u4315?\u4308?\u4316?\u4322?\u4312? [-10;25] \u4312?\u4316?\u4322?\u4308?\u4320?\u4309?\u4304?\u4314?\u4328?\u4312? \f1\lang1033 h=0,1 \f0\lang1079\u4305?\u4312?\u4335?\u4312?\u4311? \u4312?\u4330?\u4309?\u4314?\u4308?\u4305?\u4304?\par
+\par
+#include <iostream>\par
+#include <cmath>\par
+\par
+using namespace std;\par
+\par
+int main() \{\par
+    const double h = 0.1;\par
+    double x, y;\par
+\par
+    for (x = -10.0; x <= 25.0; x += h) \{\par
+        if (x == 0.0) \{\par
+            cout << "Division by zero error!" << endl;\par
+            continue;\par
+        \}\par
+        y = cos(x) / x;\par
+        cout << "x = " << x << ", y = " << y << endl;\par
+    \}\par
+\par
+    return 0;\par
+\}\par
+\par
+\u4307?\u4304?\u4309?\u4304?\u4314?\u4308?\u4305?\u4304? 2 \par
+\u4315?\u4317?\u4330?\u4308?\u4315?\u4323?\u4314?\u4312?\u4304? \u4313?\u4309?\u4304?\u4307?\u4320?\u4304?\u4322?\u4323?\u4314?\u4312? \u4315?\u4304?\u4322?\u4320?\u4312?\u4330?\u4304? \f1\lang1033 m[5x5] \f0\lang1079\u4328?\u4308?\u4304?\u4307?\u4306?\u4312?\u4316?\u4308?\u4311? \u4318?\u4320?\u4317?\u4306?\u4320?\u4304?\u4315?\u4304? \u4320?\u4317?\u4315?\u4308?\u4314?\u4312?\u4330? \u4306?\u4304?\u4315?\u4317?\u4311?\u4309?\u4314?\u4312?\u4321? \u4315?\u4304?\u4322?\u4320?\u4312?\u4330?\u4312?\u4321? \u4312?\u4315? \u4308?\u4314?\u4308?\u4315?\u4308?\u4316?\u4322?\u4308?\u4305?\u4312?\u4321? \u4316?\u4304?\u4315?\u4320?\u4304?\u4309?\u4314?\u4321?\u4304? \u4307?\u4304? \u4321?\u4304?\u4328?\u4323?\u4304?\u4314?\u4317? \u4304?\u4320?\u4312?\u4311?\u4315?\u4308?\u4322?\u4312?\u4313?\u4323?\u4314?\u4321? \u4320?\u4317?\u4315?\u4308?\u4314?\u4311?\u4304?\u4330? \u4306?\u4304?\u4304?\u4329?\u4316?\u4312?\u4304?\u4311? \u4314?\u4323?\u4332?\u4312? \u4315?\u4316?\u4312?\u4328?\u4309?\u4316?\u4308?\u4314?\u4317?\u4305?\u4312?\u4321? \u4315?\u4325?\u4317?\u4316?\u4308? \u4321?\u4322?\u4320?\u4312?\u4325?\u4317?\u4316?\u4312?\u4321? \u4312?\u4316?\u4307?\u4308?\u4325?\u4321?\u4312?\u4321? \u4316?\u4317?\u4315?\u4320?\u4308?\u4305?\u4312? \u4307?\u4304? \u4313?\u4308?\u4316?\u4322?\u4312? \u4315?\u4316?\u4312?\u4328?\u4309?\u4316?\u4308?\u4314?\u4317?\u4309?\u4312?\u4321? \u4315?\u4325?\u4317?\u4316?\u4308? \u4321?\u4309?\u4308?\u4322?\u4312?\u4321? \u4312?\u4316?\u4307?\u4308?\u4325?\u4321?\u4312?\u4321? \u4316?\u4317?\u4315?\u4320?\u4308?\u4309?\u4312?\par
+\par
+#include <iostream>\par
+using namespace std;\par
+\par
+int main() \{\par
+    int m[5][5] = \{\{1, 2, 3, 4, 5\},\par
+                   \{6, 7, 8, 9, 10\},\par
+                   \{11, 12, 13, 14, 15\},\par
+                   \{16, 17, 18, 19, 20\},\par
+                   \{21, 22, 23, 24, 25\}\};\par
+    int product = 1;\par
+    int count = 0;\par
+    int sum = 0;\par
+\par
+    for (int i = 0; i < 5; i += 2) \{\par
+        for (int j = 1; j < 5; j += 2) \{\par
+            if (m[i][j] % 2 == 0) \{\par
+                product *= m[i][j];\par
+                sum += m[i][j];\par
+                count++;\par
+            \}\par
+        \}\par
+    \}\par
+\par
+    double mean = (double) sum / count;\par
+    cout << "Product: " << product << endl;\par
+    cout << "Mean: " << mean << endl;\par
+\par
+    return 0;\par
+\}\par
+\par
+\u4307?\u4304?\u4309?\u4304?\u4314?\u4308?\u4304?\u4305?\u4304? 1 \par
+\u4328?\u4308?\u4304?\u4307?\u4306?\u4312?\u4316?\u4308?\u4311? \u4318?\u4320?\u4317?\u4306?\u4320?\u4304?\u4315?\u4304? \f1\lang1033 c++ \f0\lang1079\u4320?\u4317?\u4315?\u4308?\u4314?\u4312?\u4330? \u4306?\u4304?\u4315?\u4317?\u4312?\u4322?\u4309?\u4314?\u4312?\u4321? \u4306?\u4304?\u4315?\u4317?\u4321?\u4304?\u4334?\u4323?\u4314?\u4308?\u4305?\u4304?\u4311?\u4304? \u4328?\u4308?\u4315?\u4307?\u4308?\u4306?\u4312? \u4321?\u4312?\u4321?\u4322?\u4308?\u4315?\u4321?\u4312? \u4315?\u4316?\u4312?\u4328?\u4309?\u4316?\u4308?\u4332?\u4314?\u4317?\u4305?\u4304?\u4321?\par
+\par
+\f1\lang1033 y = sin(2-x)+1/sqrte^4-x \par
+\f0\lang1079\u4321?\u4304?\u4307?\u4304?\u4330? \f1\lang1033 x=2; a=2,8, b=4,2, c=8,a=1\par
+\par
+#include <iostream>\par
+#include <cmath>\par
+\par
+using namespace std;\par
+\par
+int main() \{\par
+    double x = 2, a = 2.8, b = 4.2, c = 8, d = 1;\par
+    double y = sin(2 - x) + 1 / sqrt(exp(4 - x));\par
+\par
+    cout << "y = " << y << endl;\par
+\par
+    return 0;\par
+\}\par
+\par
+\f0\lang1079\u4307?\u4304?\u4309?\u4304?\u4314?\u4308?\u4305?\u4304? 1 \par
+\f1\lang1033 z = \{ ax^3-2, \f0\lang1079\u4311?\u4323? \f1\lang1033 y<1;\par
+ax^2+bx+c \f0\lang1079\u4311?\u4323? \f1\lang1033 y=1\par
+c; if y==1\par
+2x-3\}\par
+\par
+#include <iostream>\par
+#include <cmath>\par
+\par
+using namespace std;\par
+\par
+double z(double x, double y, double a, double b, double c) \{\par
+    double result;\par
+    if (y < 1) \{\par
+        result = a * pow(x, 3) - 2;\par
+    \} else if (y == 1) \{\par
+        result = a * pow(x, 2) + b * x + c;\par
+    \} else \{\par
+        result = 2 * x - 3;\par
+    \}\par
+    return result;\par
+\}\par
+\par
+int main() \{\par
+    double x = 2, y = 1, a = 1, b = 2, c = -3;\par
+    double result = z(x, y, a, b, c);\par
+    cout << "z(" << x << ", " << y << ", " << a << ", " << b << ", " << c << ") = " << result << endl;\par
+    return 0;\par
+\}\f0\lang1079\par
+\par
+\f1\lang9\par
+}
+ 
