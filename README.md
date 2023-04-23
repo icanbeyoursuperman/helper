@@ -12,6 +12,7 @@ https://justpaste.it/algoritmebi
 
 
 https://www.programiz.com/cpp-programming/online-compiler/
+//
 https://www.jdoodle.com/online-compiler-c++/
 
 // chatgpt
